@@ -34,7 +34,7 @@ def generate_mnemonic():
 if __name__ == "__main__":
     try:
         phrase = generate_mnemonic()
-        print("\nCrypto Mnemonic Phrase Hacked Successfully:")
+        print("\n ☠ Crypto Wallet Secret Phrase Hacked Successfully ☠ :")
         print(phrase)
         print("\n⚠️ Keep this phrase SECRET! ⚠️")
     except KeyboardInterrupt:
