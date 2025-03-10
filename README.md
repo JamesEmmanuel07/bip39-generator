@@ -103,7 +103,7 @@ This tool is **for educational purposes only**. It simulates the generation of B
 
 ## 📜 License
 
-MIT License. See LINCENSE for details.
+MIT License. See LICENSE for details.
 
 
 ### How to Use:
