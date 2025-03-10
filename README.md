@@ -1,25 +1,28 @@
-# bip39-generator
-BIP39 mnemonic phrase generator
+```plaintext
+# 🔐 BIP39 Wallet Hacker Tool 🔓
 
-Here’s the updated **README.md** with your repository link incorporated:
+> **⚠️ WARNING: This tool is for educational purposes only. Use at your own risk! ⚠️**
 
-```markdown
-# BIP39 Mnemonic Phrase Generator
-
-A Python script to generate **BIP39-compliant 12 or 24-word mnemonic phrases** for cryptocurrency wallets. Uses cryptographically secure entropy and validates checksums.
-
-## ⚠️ Security Warning
-- **Never share generated phrases** – treat them like passwords!
-- **Do not use for real wallets** without thorough security auditing.
-- Run **offline** for maximum safety.
+A **Python-based BIP39 mnemonic phrase generator** designed to simulate wallet recovery and security testing. This tool generates **12 or 24-word mnemonic phrases** compliant with the BIP39 standard, commonly used in cryptocurrency wallets.
 
 ---
 
-## 📥 Installation
+## 🛠️ Features
+
+- 🎲 **Cryptographically Secure Entropy**: Uses `secrets` for secure randomness.
+- 🔍 **BIP39 Compliance**: Validates checksums for accurate phrase generation.
+- 📱 **Cross-Platform**: Works on **VS Code (PC)** and **Termux (Android)**.
+---
+
+## 🚀 Installation
 
 ### **On VS Code (PC)**
 1. **Install Python**:  
-   Download from [python.org](https://www.python.org/downloads/). Ensure `python --version` works in the terminal.
+   Download from [python.org](https://www.python.org/downloads/).  
+   Verify installation:  
+   ```bash
+   python --version
+   ```
 
 2. **Clone the Repository**:  
    ```bash
@@ -28,9 +31,11 @@ A Python script to generate **BIP39-compliant 12 or 24-word mnemonic phrases** f
    ```
 
 3. **Verify Files**:  
-   Ensure the folder contains:
-   - `bip39_generator.py`
-   - `english.txt`
+   Ensure the folder contains:  
+   - `bip39_generator.py`  
+   - `english.txt`  
+
+---
 
 ### **On Termux (Android)**
 1. **Install Termux**:  
@@ -54,7 +59,7 @@ A Python script to generate **BIP39-compliant 12 or 24-word mnemonic phrases** f
 
 ---
 
-## 🚀 Usage
+## 💻 Usage
 
 ### **On VS Code**
 1. Open the project folder in VS Code.
@@ -84,26 +89,22 @@ A Python script to generate **BIP39-compliant 12 or 24-word mnemonic phrases** f
    ```bash
    ./bip39_generator.py
    ```
+## ⚠️ Disclaimer
 
----
-
-## 📝 Notes
-- **Wordlist**: Uses the official BIP39 English wordlist from `english.txt`.
-- **Checksum Validation**: Phrase includes a SHA-256 checksum for BIP39 compliance.
-- **Testing**: Always test with dummy phrases before real use.
-
----
-
-## 📜 License
-MIT License. See [LICENSE](LICENSE) for details.
+This tool is **for educational purposes only**. It simulates the generation of BIP39 mnemonic phrases and is not intended for malicious use. The developers are not responsible for any misuse of this software.
 
 ---
 
 ## 🔗 Repository
-[https://github.com/JamesEmmanuel07/bip39-generator](https://github.com/JamesEmmanuel07/bip39-generator)
-```
+
+🔗 [https://github.com/JamesEmmanuel07/bip39-generator](https://github.com/JamesEmmanuel07/bip39-generator)
 
 ---
+
+## 📜 License
+
+MIT License. See LINCENSE for details.
+
 
 ### How to Use:
 1. Copy the above text.
@@ -111,8 +112,6 @@ MIT License. See [LICENSE](LICENSE) for details.
 3. Commit and push the changes:
    ```bash
    git add README.md
-   git commit -m "Updated README with installation and usage instructions"
+   git commit -m "Updated README with hacker-style theme"
    git push origin main
    ```
-
-Now your repository will have a clear, professional guide for users to install and run the script on both VS Code and Termux! 🚀 Let me know if you need further tweaks. 😊
